@@ -58,7 +58,7 @@
 
 <div class="container">
 
-  <!-- Login Form -->
+
   <div id="loginForm">
     <h2>Secure Login</h2>
     <input type="email" id="email" placeholder="Email">
@@ -66,7 +66,7 @@
     <button onclick="login()">Login</button>
   </div>
 
-  <!-- OTP Form -->
+  
   <div id="otpForm" class="hidden">
     <h2>Enter OTP</h2>
     <input type="text" id="otp" placeholder="Enter OTP">
@@ -82,7 +82,7 @@
   function login() {
     const email = document.getElementById("email").value;
 
-    // Simulated AI risk scoring
+    
     currentRisk = Math.floor(Math.random() * 100);
 
     alert("Risk Score: " + currentRisk);
